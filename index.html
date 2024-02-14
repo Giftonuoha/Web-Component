@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WEB COMPONENT TODO LIST</title>
+    <script src="main.js"></script>
+    <script src="Todolist.js"></script>
+</head>
+<body>
+    <main>
+        <div class="frame">
+            <h3> <img src="./Img/arrow.png" alt="">Back to lists </h3>
+            <div class="txt">
+                <h1>TODAY</h1>
+                <button class="btn">+</button>
+            </div>
+            <div class="bar">
+                <div class="progress"></div>
+            </div>
+            <h4 class="percent">33% Complete</h4>
+
+            <todo-list class="list-item" >
+                <ul>
+                    <li class="check">Meditation</li>
+                    <li >Pick Up Anna</li>
+                    <li >Set up meeting with Jay</li>
+                    <li >Finish Daily Ui</li>
+                    <li >Second editd on article</li>
+                    <li class="check">Email Chris</li>
+                </ul>
+            </todo-list>
+            
+            <button-element class="Btn-section">
+                <p>Pull from recurring list</p>
+                <div class="subBtn-1">
+                    <button class="yellow">Daily</button>
+                    <button class="green">Weeky</button>
+                </div>
+                <div class="subBtn-2">
+                    <button class="pink">Monthly</button>
+                    <button class="purple">Occasional</button>
+                </div>
+            </button-element>
+
+            
+        </div>
+
+       
+
+    </main>
+
+   
+    
+</body>
+</html>

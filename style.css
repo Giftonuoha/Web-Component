@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #B3B3EF;
+    
+    
+}
+
+.frame{
+    background-color:#fff;
+    height: 110vh;
+    width: 30%;
+    margin: 50px auto;
+    position: absolute;
+    left: 30%;
+    padding: 15px;
+
+}
+img{
+    width:40px;
+}
+h3{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 15px;
+    color:#E5E5F5;
+   
+}
+.txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+
+}
+.btn{
+    border-radius: 50%;
+    border: 2px solid #B3B3EF ;
+    background-color: transparent;
+    color:#B3B3EF ;
+    font-size: larger;
+    height: 40px;
+    width: 40px;
+}
+.bar{
+    width: 100%;
+    border-radius: 20px;
+    height: 24px;
+    border: 2px solid #B3B3EF ;
+  
+}
+.bar .progress{
+    width: 33%;
+    background-color:#B3B3EF ;
+    border-radius: 20px;
+    height: 20px;
+
+}
+.percent{
+    color:#B3B3EF;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.checked img{
+    width: 20px;
+}
+
+/* Custom Element */
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 20px 8px 12px 55px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url(./Img/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 5px;
+}
+
+ul .check::before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url(./Img/checked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 5px;
+}
+
+ul li.checked{
+    color: #555;
+    /* text-decoration: line-through; */
+    display: none;
+}
+
+ul li.checked::before{
+    background-image: url(./Img/Checked.png);
+
+}
+
+.Btn-section{
+    border-top: 3px solid #B3B3EF;
+    margin-top: 10px;
+}
+
+.Btn-section p{
+    margin: 15px;
+  
+}
+
+.subBtn-1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.subBtn-1 .yellow{
+    background-color: #F5ED84;
+    width: 40%;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.subBtn-1 .green{
+    background-color:#B5EA81;
+    width: 40%;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.subBtn-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.subBtn-2 .pink{
+    background-color:#F8AAAA;
+    width: 40%;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+
+}
+.subBtn-2 .purple{
+    background-color:#B3B3EF;
+    width: 40%;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+
+}
+
+
+
+.checked{
+    background-image: url(./Img/Checked.png);
+    
+}
